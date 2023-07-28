@@ -1,0 +1,14 @@
+#访问端口设置8089
+server:
+  port: 8089
+mybatis:
+  #指sql语句在配置文件中的情况
+  mapper-locations: classpath*:/mappers/*Mapper.xml
+  configuration:
+    #自动转驼峰
+    mapUnderscoreToCamelCase: true
+spring:
+  redis:
+    host: 10.10.10.184
+    port: 6379
+    database: 0
